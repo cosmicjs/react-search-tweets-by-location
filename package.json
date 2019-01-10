@@ -1,0 +1,30 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cosmicjs": "^3.2.7",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "next": "^7.0.2",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-google-maps": "^9.4.5",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node server.js",
+    "develop": "npm run dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
