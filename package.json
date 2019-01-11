@@ -20,6 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "postinstall": "next build",
     "dev": "node server.js",
     "develop": "npm run dev",
     "build": "next build",
