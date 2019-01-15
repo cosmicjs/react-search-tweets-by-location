@@ -51,6 +51,10 @@ class Index extends React.Component {
     fetch
       .getSearchHistory()
       .then(data => {
+        const x = _.orderBy(data, item => {
+          return item.metadata.searchCounts;
+        }, ['desc']);
+        console.log('--x ape--', x);
         this.setState({
           popular: data,
         });
@@ -141,6 +145,7 @@ class Index extends React.Component {
                   </Col>
                 </Flex>
                 <div className="popular-categories">
+                  <p className="popular-topics">Popular topics</p>
                   {this.state.popular.map((item, key) => (
                     <span
                       key={key}
@@ -207,15 +212,22 @@ class Index extends React.Component {
             }
 
             .search-bar {
-              height: 10vh;
+              height: 15vh;
               border-radius: 10px;
               box-shadow: 0 5px 20px 0 rgba(204, 204, 204, 0.5);
-              padding: 0 15px;
+              padding: 10px 15px;
               margin: 10px 0;
+              word-break: break-all;
             }
 
             .popular-categories {
               margin-top: 10px;
+            }
+
+            .popular-topics {
+              margin-bottom: 5px;
+              color: #8c8c8c;
+              font-size: 14px;
             }
 
             .category-item {
@@ -225,7 +237,7 @@ class Index extends React.Component {
             }
 
             .tweet-container {
-              height: 80vh;
+              height: 75vh;
               background: #fff;
               padding: 0 15px;
               overflow-y: scroll;
