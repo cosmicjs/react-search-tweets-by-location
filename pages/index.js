@@ -51,10 +51,6 @@ class Index extends React.Component {
     fetch
       .getSearchHistory()
       .then(data => {
-        const x = _.orderBy(data, item => {
-          return item.metadata.searchCounts;
-        }, ['desc']);
-        console.log('--x ape--', x);
         this.setState({
           popular: data,
         });
@@ -177,7 +173,7 @@ class Index extends React.Component {
                     <p className="tweet-text">{item.text}</p>
                     <Flex xs={{ justify: 'flex-end' }}>
                       <Col>
-                        <a href={`https://twitter.com/statuses/${item.id_str}`} target="_blank" rel="noreferrer noopener">More...</a>
+                        <a href={`https://twitter.com/${item.user.screen_name}/statuses/${item.id_str}`} target="_blank" rel="noreferrer noopener">More...</a>
                       </Col>
                     </Flex>
                   </div>
