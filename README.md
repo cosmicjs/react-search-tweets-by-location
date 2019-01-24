@@ -5,7 +5,7 @@
 [View Demo](https://cosmicjs.com/apps/search-tweets-by-location-app)
 
 **Tweet locator** - an application that filters twitter tweets by location using [React](https://reactjs.org/) and [Cosmic JS](https://cosmicjs.com/). 
-We will be using [Cosmic JS npm package](https://www.npmjs.com/package/cosmicjs) for saving and sorting the most popular searches in our application. Let's get started.
+We will be using [Cosmic JS npm package](https://www.npmjs.com/package/cosmicjs) for saving and sorting the most popular searches in our application.
 
 ### Getting started
 
