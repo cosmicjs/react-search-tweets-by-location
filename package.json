@@ -24,7 +24,7 @@
     "dev": "node server.js",
     "develop": "npm run dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "npm run build; NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC"
