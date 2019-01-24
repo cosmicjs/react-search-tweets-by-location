@@ -1,4 +1,4 @@
-# Tweet locator
+# React Tweet Locator
 
 ![Main image](https://cosmic-s3.imgix.net/15012da0-1ff8-11e9-8b75-9b9c29c68edc-tweets-by-location.png?w=1000)
 
