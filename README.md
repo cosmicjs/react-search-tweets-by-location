@@ -1,6 +1,6 @@
 # React Tweet Locator
 
-![Main image](https://cosmic-s3.imgix.net/15012da0-1ff8-11e9-8b75-9b9c29c68edc-tweets-by-location.png?w=1000)
+![Main image](https://cosmic-s3.imgix.net/7f1dc2e0-1ffb-11e9-b80b-1731ece5d7b1-tweets-by-location-3.gif)
 
 [View Demo](http://4a4b5af0-05b6-11e9-8899-61183d51ba8a.cosmicapp1.co/)
 
