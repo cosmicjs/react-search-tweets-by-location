@@ -1,6 +1,6 @@
 # Tweet locator
 
-![Main image](https://cosmic-s3.imgix.net/d6d61e80-1504-11e9-aa5e-6f016c618576-WhatsApp-Image-2019-01-10-at-9.55.04-PM.jpeg?w=1000)
+![Main image](https://cosmic-s3.imgix.net/15012da0-1ff8-11e9-8b75-9b9c29c68edc-tweets-by-location.png?w=1000)
 
 [View Demo](http://4a4b5af0-05b6-11e9-8899-61183d51ba8a.cosmicapp1.co/)
 
